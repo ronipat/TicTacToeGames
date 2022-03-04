@@ -1,6 +1,6 @@
-# Getting Started
+# Tic Tac Toe Games for FWD
 
-### Reference Documentation
+### R
 
 For further reference, please consider the following sections:
 
