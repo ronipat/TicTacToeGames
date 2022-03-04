@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="author" content="ronips">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="REM">
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />
+	<head>
+		<title>Tic Tac Toe Games</title>
+		<link rel="stylesheet" href="libs/css/css.css" />
+		<link rel="stylesheet" href="libs/css/angular-material.min.css" />
+	</head>
+	<body ng-app="haApp" layout="row">
+		<div style="position: fixed; z-index: 11; left: 0; right: 0; top: 0"
+			 	class="md-whiteframe-4dp" hide-gt-lg ng-hide="hideMenu">
+	        <md-toolbar>
+	            <div class="md-toolbar-tools" style="padding-left:24px;
+	            		padding-right:24px;">
+	                <div style="font-size:150%;font-weight:bold;">
+						Tic Tac Toe Games
+	                </div>
+	            </div>
+	        </md-toolbar>
+	    </div>
+
+		<md-content flex layout="column">
+			<div style="height:64px" hide-gt-lg></div>
+			<div flex ng-view></div>
+		</md-content>
+
+		<script src="libs/js/jquery.min.js"></script>
+		<script src="libs/js/angular.min.js"></script>
+		<script src="libs/js/angular-animate.min.js"></script>
+		<script src="libs/js/angular-aria.min.js"></script>
+		<script src="libs/js/angular-messages.min.js"></script>
+		<script src="libs/js/angular-route.min.js"></script>
+		<script src="libs/js/angular-resource.min.js"></script>
+		<script src="libs/js/angular-sanitize.js"></script>
+		<script src="libs/js/angular-material.min.js"></script>
+		<script src="libs/js/moment.min.js"></script>
+		<script src="libs/js/md-data-table.min.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/controller.js"></script>
+		<script src="js/service.js"></script>
+		<script src="js/util.js"></script>
+		<script src="js/config.js"></script>
+
+	</body>
+</html>
+
