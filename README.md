@@ -4,7 +4,7 @@
 
 Build with the following techs:
 
-* Java, Spring Boot
+* Java, Maven, Spring Boot
 * HTML, CSS, Javascript
 * Angular JS
 
