@@ -1,13 +1,12 @@
-# Tic Tac Toe Games for FWD
+# Tic Tac Toe
 
-### R
+### Tic Tac Toe Games made for FWD Recruitment process
 
-For further reference, please consider the following sections:
+Build with the following techs:
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.6.4/maven-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.6.4/maven-plugin/reference/html/#build-image)
-* [Spring Web](https://docs.spring.io/spring-boot/docs/2.6.4/reference/htmlsingle/#boot-features-developing-web-applications)
+* Java, Spring Boot
+* HTML, CSS, Javascript
+* Angular JS
 
 ### Guides
 
